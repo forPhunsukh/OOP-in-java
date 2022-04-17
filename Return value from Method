@@ -1,0 +1,17 @@
+package newpackage;
+
+public class NewClass {
+    int square(int value){
+        return value*value;
+    }
+}
+
+package newpackage;
+
+public class Test {
+    public static void main(String[] args) {
+        NewClass obj = new NewClass();
+        int result = obj.square(7);
+        System.out.println("Square of 7 is: "+result);
+    }
+}

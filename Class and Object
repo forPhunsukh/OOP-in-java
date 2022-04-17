@@ -6,7 +6,6 @@ public class Teacher {
     int age;
 }
 
-
 package newpackage;
 public class Test {
      public static void main(String[] args) {

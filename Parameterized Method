@@ -1,0 +1,29 @@
+package newpackage;
+public class Teacher {
+    String name,gender;
+    int phone;
+
+void setInfo(String n,String g,int ph){
+    name = n; gender = g; phone = ph;
+}    
+
+void display(){
+    System.out.println("Name: "+name);
+    System.out.println("Phone: "+phone);
+    System.out.println("Gender: "+gender);
+    System.out.print("\n");
+    }
+}
+
+package newpackage;
+
+public class Main {
+    public static void main(String[] args) {
+        Teacher t1 = new Teacher();
+    t1.setInfo("Hanrey Green","Male",2155988);
+    t1.display();
+        Teacher t2 = new Teacher();
+    t2.setInfo("Marie Stok", "Female",2259862);
+    t2.display();
+    }
+}

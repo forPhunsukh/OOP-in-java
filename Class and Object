@@ -1,5 +1,4 @@
 package newpackage;
-
 public class Teacher {
     String name,gender;
     int age;
